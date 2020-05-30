@@ -1,0 +1,12 @@
+{
+	"name": "GetSetMetadata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sqldb_adf",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
