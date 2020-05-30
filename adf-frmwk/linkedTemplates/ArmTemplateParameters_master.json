@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "adf-frmwk"
 		},
+		"ls_sqldb_adf_connectionString": {
+			"value": ""
+		},
 		"ls_keyvault_properties_typeProperties_baseUrl": {
 			"value": "https://kv-gapy.vault.azure.net/"
 		},
