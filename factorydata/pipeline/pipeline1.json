@@ -1,0 +1,31 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"description": "Used for ...",
+		"activities": [
+			{
+				"name": "Wait1",
+				"description": "",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": {
+						"value": "@pipeline().parameters.WaitTime",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"parameters": {
+			"waitTime": {
+				"type": "int",
+				"defaultValue": 5
+			}
+		},
+		"folder": {
+			"name": "_Workers"
+		},
+		"annotations": []
+	}
+}
