@@ -1,11 +1,10 @@
 {
 	"name": "Wait 1",
 	"properties": {
-		"description": "Used for ...",
+		"description": "Used just so the ADF.procfwk has something to call during development.",
 		"activities": [
 			{
 				"name": "Wait1",
-				"description": "",
 				"type": "Wait",
 				"dependsOn": [],
 				"userProperties": [],
