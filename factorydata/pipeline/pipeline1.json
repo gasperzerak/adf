@@ -18,9 +18,8 @@
 			}
 		],
 		"parameters": {
-			"waitTime": {
-				"type": "int",
-				"defaultValue": 5
+			"WaitTime": {
+				"type": "int"
 			}
 		},
 		"folder": {
